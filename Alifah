@@ -1,0 +1,39 @@
+#include"pch.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a,b,c,x,y,z;
+	
+	cout << "\nPlease enter integer x : ";
+	cin >> x;
+	cout << "\nPlease enter integer b : ";
+	cin >> b;
+	cout << "\nPlease enter integer c : ";
+	cin >> c;
+	cout << "\nPlease enter integer z : ";
+	cin >> z;
+	cout << "\nPlease enter integer y : ";
+	cin >> y;
+
+	y = x + 9;
+
+	cout << "\nThe first answer is " << y << endl;
+
+	a = (2 * b) + (2 * c);
+	
+	cout << "The second answer is " << a << endl;
+
+	y = pow(x, 3);
+	
+	cout << "The third answer is " << y << endl;
+
+	y = x / (pow(z, 2)) + 2;
+	
+	cout << "The fourth answer is " << y << endl;
+
+	y = (pow(x, 2)) / (pow(y, 2));
+
+	cout << "The fifth answer is " << y << endl;
+}
